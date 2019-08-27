@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/node:8.10
-    working_directory: ~/amathon2019
+    working_directory: ~/eb-circleci
     steps:
       - checkout
       - restore_cache:
